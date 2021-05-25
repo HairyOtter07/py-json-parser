@@ -1,0 +1,4 @@
+object      : LBRACE RBRACE | LBRACE pair (COMMA pair)* RBRACE
+array       : LBRACKET RBRACKET | LBRACKET value (COMMA value)* RBRACKET
+pair        : STRING COLON value
+value       : STRING | NUMBER | object | array | TRUE | FALSE | NULL

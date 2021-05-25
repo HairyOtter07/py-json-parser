@@ -1,0 +1,27 @@
+[
+    "value1",
+    "value2",
+    [
+        {
+            "this": "is"
+        }
+    ],
+    {
+        "a": "really",
+        "epic": "test"
+    },
+    {
+        "now": "to",
+        "test": "nonstrings",
+        "true_test": true,
+        "false_test": false,
+        "null_test": null,
+        "int_test": 21920,
+        "neg_int_test": -21920,
+        "frac_test": 219.20,
+        "exp_test": 21920e2,
+        "cap_exp_test": 21920E2,
+        "exp_minus_test": 21920e-2,
+        "exp_plus_test": 21920e+2
+    }
+]
